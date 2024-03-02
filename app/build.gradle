@@ -1,7 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.coderic.whois.mobile"
+
+  dependenciesInfo {
+    includeInApk true
+    includeInBundle true
+  }
+  buildToolsVersion '34.0.0'
+  namespace "com.coderic.whois.mobile"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "com.coderic.whois.mobile"
