@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CodericWhoisApp</string>
-    <string name="title_activity_main">CodericWhoisApp</string>
-    <string name="package_name">com.coderic.whois.mobile</string>
-    <string name="custom_url_scheme">com.coderic.whois.mobile</string>
+    <string name="app_name">Whois</string>
+    <string name="title_activity_main">Whois</string>
+    <string name="package_name">org.coderic.whois.mobile</string>
+    <string name="custom_url_scheme">org.coderic.whois.mobile</string>
 </resources>
