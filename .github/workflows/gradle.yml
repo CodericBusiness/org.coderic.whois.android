@@ -25,14 +25,12 @@ jobs:
         java-version: 17
         distribution: temurin
 
-    # Configure Gradle for optimal use in GiHub Actions, including caching of downloaded dependencies.
-    # See: https://github.com/gradle/actions/blob/main/setup-gradle/README.md
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v3 
-      with:
-        gradle-version: 8.6
-    - name: Change wrapper permissions
-      run: chmod +x ./gradlew
+##    - name: Setup Gradle
+##      uses: gradle/actions/setup-gradle@v3 
+##      with:
+##        gradle-version: 8.6
+##    - name: Change wrapper permissions
+##      run: chmod +x ./gradlew
 
     - name: Test with Gradle Wrapper
       run: ./gradlew test
