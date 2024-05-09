@@ -9,7 +9,7 @@ android {
   namespace "org.coderic.whois.mobile"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        resConfigs "en"
+        resourceConfigurations += ['en']
         applicationId 'org.coderic.whois.mobile'
         minSdkVersion rootProject.ext.minSdkVersion
       targetSdkVersion targetSdkVersion
